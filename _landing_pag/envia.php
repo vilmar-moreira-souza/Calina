@@ -13,7 +13,7 @@ if(($_POST['email'] != "") and ($_POST['mensagem'] != "")){   // se formulario p
    $mail->Host = 'smtp.gmail.com';
    $mail->SMTPAuth = true;
    $mail->Username = 'contato2bsantos@gmail.com';
-   $mail->Password = 'vilmar97324674';
+   $mail->Password = 'senha';
    //remetente
    $mail->From =('contato2bsantos@gmail.com');
    $mail->fromname =("vilmar");
