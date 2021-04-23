@@ -12,13 +12,12 @@ if(($_POST['email'] != "") and ($_POST['mensagem'] != "")){   // se formulario p
    $mail->isSMTP();
    $mail->Host = 'smtp.gmail.com';
    $mail->SMTPAuth = true;
-   $mail->Username = 'contato2bsantos@gmail.com';
-   $mail->Password = 'senha';
-   //remetente
-   $mail->From =('contato2bsantos@gmail.com');
-   $mail->fromname =("vilmar");
+   $mail->Username = 'user@example.com';                 // SMTP email
+   $mail->Password = 'secret';                           // SMTP password do email
+   $mail->From =('from@example.com');
+   $mail->fromname =("name");
    //destinatario
-   $mail->addAddress("$email","vilmar");     
+   $mail->addAddress("$email","name");     
    $mail->isHTML(true);     
    $mail->Subject = ("teste");// assunto
    $mail->Body = ("$mensagem"); // corpo da mensagem
