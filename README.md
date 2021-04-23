@@ -16,12 +16,12 @@ envia email com a classe [phpmailer()](https://github.com/vilmar-moreira-souza/C
 <h3>sobre a aplicação</h3>
 <p>essa aplicação é uma landing page para contato, utilizando a classe php mailer para fazer o envio do email. <br> <a href="https://vilmar-moreira-souza.github.io/Calina/" target="blank">visualizar </a> <br>
    </p>
-## tecnologias usadas
- * html
- * css
- * javascript
- * php
- * bootstrap
+<h3> tecnologias usadas</h3>
+  <li>html</li>
+   <li>css</li>
+  <li>javascript</li>
+ <li>php</li> 
+  <li>bootstrap</li>
 <h3>ideias para implementar</h3>
 
  <li>melhorar o design</li>
